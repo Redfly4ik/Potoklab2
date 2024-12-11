@@ -1,10 +1,9 @@
-package org.example.potokilaba.lab2;
+package org.example.laba22222222.lab2;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import org.example.potokilaba.lab1.RunnableIntegralCalculator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,7 +64,7 @@ public class IntegralController {
         sb.append("Number of threads: ").append(numThreads).append("\n")
                 .append("Number of steps (n): ").append(N).append("\n")
                 .append("Result: ").append(totalResult).append("\n")
-                .append(String.format("Execution time: %.5f ms\n", (finishTime - startTime) / 1e6)).append("\n");
+                .append(String.format("Execution time: %.1f ms\n", (finishTime - startTime) / 1e6)).append("\n");
         resultField.setText(sb.toString());
     }
 

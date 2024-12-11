@@ -1,8 +1,11 @@
-package org.example.potokilaba.lab2;
+package org.example.laba22222222.lab2;
+
+
+
+import org.example.laba22222222.Function;
 
 import java.util.concurrent.Callable;
 import java.util.function.DoubleUnaryOperator;
-import org.example.potokilaba.Function;
 
 public class CallableIntegralCalculator implements Callable<Double> {
 
