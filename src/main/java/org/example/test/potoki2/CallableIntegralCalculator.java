@@ -1,9 +1,5 @@
-package org.example.laba22222222.lab2;
-
-
-
-import org.example.laba22222222.Function;
-
+package org.example.test.potoki2;
+import org.example.test.Function;
 import java.util.concurrent.Callable;
 import java.util.function.DoubleUnaryOperator;
 

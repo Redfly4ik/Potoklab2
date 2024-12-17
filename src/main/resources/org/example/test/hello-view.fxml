@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 <BorderPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="org.example.laba22222222.lab2.IntegralController">
+            fx:controller="org.example.test.potoki2.IntegralController">
     <center>
         <AnchorPane prefHeight="225.0" BorderPane.alignment="CENTER">
 

@@ -1,5 +1,4 @@
-package org.example.laba22222222;
-
+package org.example.test;
 import java.util.function.DoubleUnaryOperator;
 import java.util.stream.IntStream;
 
@@ -8,7 +7,6 @@ public class Function {
     private final int nSteps;
     private final double step;
     private final DoubleUnaryOperator f;
-
 
     public Function(double start, double end, int nSteps, DoubleUnaryOperator f) {
         this.start = start;

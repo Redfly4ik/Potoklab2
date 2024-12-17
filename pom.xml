@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>laba22222222</artifactId>
+    <artifactId>potoki2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>laba22222222</name>
 
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.laba22222222/org.example.laba22222222.HelloApplication</mainClass>
+                            <mainClass>org.example.laba22222222/org.example.test.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

@@ -1,11 +1,11 @@
-module org.example.laba22222222 {
+module org.example.potoki2 {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens org.example.laba22222222 to javafx.fxml;
-    exports org.example.laba22222222;
+    opens org.example.test to javafx.fxml;
+    exports org.example.test;
 
-    opens org.example.laba22222222.lab2 to javafx.fxml;
-    exports org.example.laba22222222.lab2;
+    opens org.example.test.potoki2 to javafx.fxml;
+    exports org.example.test.potoki2;
 }
